@@ -1,5 +1,10 @@
+import test.Cat;
+
 public class Test {
     public static void main(String[] args) {
-        System.out.println("321!!");
+        Cat cat = new Cat();
+
+        System.out.println(cat.age);
+        System.out.println(cat.speak);
     }
 }

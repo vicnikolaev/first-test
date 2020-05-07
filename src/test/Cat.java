@@ -1,7 +1,6 @@
 package test;
 
 public class Cat {
-    public static void main(String[] args) {
-        System.out.println("hello cat");
-    }
+        public int age = 777;
+        public String speak = "mew-mew";
 }
