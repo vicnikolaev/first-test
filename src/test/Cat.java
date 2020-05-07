@@ -2,6 +2,8 @@ package test;
 
 public class Cat {
     public static void main(String[] args) {
-        System.out.println("hello cat");
+        int age = 99;
+
+        System.out.println("cats age = " + age);
     }
 }
